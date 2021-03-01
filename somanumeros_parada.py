@@ -7,5 +7,5 @@ while numero != 999:
     if numero != 999:
         soma += numero
         cont += 1
-print(f'Você digitou \033[0;32m{cont} números\033[m e a soma entre eles foi {soma}')
+print(f'Você digitou \033[0;32m{cont} números\033[m e a soma entre eles foi {soma}\n')
 
