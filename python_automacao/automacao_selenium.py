@@ -47,7 +47,7 @@ cotacao_ouro = cotacao_ouro.replace(",", ".")
 print(cotacao_ouro)
 navegador.quit()
 
-produtos_df = pd.read_excel(r"C:\Users\USUARIO\Desktop\SENAI\exercicios_python\python\produtos.xlsx")
+produtos_df = pd.read_excel(r"C:\Users\USUARIO\Desktop\SENAI\exercicios_python\python_automacao\produtos.xlsx")
 
 #mostra a tabela original dos preços dos produtos
 print(produtos_df)
