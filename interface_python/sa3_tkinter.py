@@ -6,9 +6,7 @@ def calcular_troco():
     if float(compra.get()) > float(pagamento.get()): # caso o cliente pagar um valor menor da compra
         saida1["text"] = "Valor errado!"
         
-
     else: # caso o cliente pagar um valor maior ou igual ao da compra
-
         troco = float(pagamento.get()) - float(compra.get())
         saida1["text"] = "R$ " + str(f'{troco:.2f}')
 
